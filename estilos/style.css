@@ -1,29 +1,4 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
-}
-nav#links{
-    background-color: #F2B08D ;
-    display: flex;
-    justify-content:baseline;
-    
-}
-
-nav#links > ol{
-    list-style-type: none;
-    margin:0px auto;
-}
-nav#links > ol > li{
-    display: inline-block;
-    margin:  10px;
-    
-}
-nav#links > ol > li > a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-div#logo{
-    display: inline-block;
 }
