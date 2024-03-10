@@ -2,3 +2,48 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* barra de navegação*/
+
+.navbar-container{
+    background-color: rgb(242, 176, 141);
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 0 2rem;
+}
+.logo{
+    width: 200px;
+    margin-top: 15px;
+}
+.navbar-itens{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 10px;
+}
+.navbar-itens li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar-itens a{
+    color: rgb(248, 248, 248);
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.fa-brands{
+    font-size: 35px;
+}
+.fa-brands#facebook{
+    color: rgb(29, 31, 199);
+}
+.fa-brands#youtube{
+    color: red;
+}
+.fa-brands#tiktok{
+    color: rgb(0, 0, 0);
+}
