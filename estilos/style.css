@@ -12,7 +12,9 @@ img{
 img:hover{
  transform: scale(1.03);
 }
-
+.autor{
+    font-style: italic;
+}
 /*fonte marcellus*/
 .marcellus-regular {
     font-family: "Marcellus", serif;
@@ -26,7 +28,7 @@ span.destaque{
     text-transform: uppercase;
     font-size: 30px;
     color: rgb(241, 183, 35);
-    margin-top:50px;
+    margin:50px 0;
 }
 /* barra de navegação*/
 
@@ -64,7 +66,6 @@ span.destaque{
 .navbar-itens a:hover{
     color: rgb(255, 255, 255);
 }
-
 .fa-brands{
     transition: 0.5s;
     font-size: 35px;
@@ -95,6 +96,7 @@ span.destaque{
     text-align: justify;
 }
 .imagem-destaque img{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.679);
     border-radius: 10px;
     width: 600px;
 }
@@ -137,6 +139,7 @@ span.destaque{
   margin: 20px 5px;
 }
 .receita img{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
     border-radius: 10px;
     min-width: 400px;
     width: 26vw;
@@ -146,10 +149,7 @@ span.destaque{
     min-width: 380px;
     width: 26vw;
 }
-.descricao h1{
-    text-align: center;
-}
-.descricao h2{
+.descricao h1,h2{
     text-align: center;
 }
 .receita a{
@@ -171,4 +171,40 @@ span.destaque{
     background-color: rgb(255, 255, 255);
     border: 0px solid rgba(32, 32, 32, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
+/* Vídeos*/
+.videos{
+    display: flex;
+    width: 70vw;
+    min-width: 805px;
+    margin: 30px auto;
+}
+
+.video{
+    margin: 0 auto;
+}
+
+/* Sobre*/
+.sobre{
+    width: 70vw;
+    display: flex;
+    margin: 100px auto;
+}
+.img-sobre img{
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgb(212, 102, 43);
+    border-radius: 50%;
+    background-color: rgb(212, 102, 43);
+    margin-right: 20px;
+}
+.dados-sobre{
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.dados-sobre h2{
+    margin-bottom: 20px;
+    font-size: 30px;
 }
