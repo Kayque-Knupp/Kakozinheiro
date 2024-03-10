@@ -95,6 +95,7 @@ span.destaque{
     text-align: justify;
 }
 .imagem-destaque img{
+    border-radius: 10px;
     width: 600px;
 }
 .imagem-destaque{
@@ -117,6 +118,12 @@ span.destaque{
     background-color: rgb(255, 255, 255);
     border: 0px solid rgba(32, 32, 32, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+.descricao-destaque p{
+    width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+
 }
 /* Novas receitas*/
 
