@@ -127,6 +127,9 @@ span.destaque{
     text-align: justify;
 
 }
+.fa-star{
+    color:rgb(224, 154, 3);
+}
 /* Novas receitas*/
 
 .novas-receitas{
@@ -207,4 +210,28 @@ span.destaque{
 .dados-sobre h2{
     margin-bottom: 20px;
     font-size: 30px;
+}
+figcaption{
+    width: 200px;
+    margin: auto;
+}
+
+/* Botao ir ao topo*/
+.ir-ao-topo {
+    display: inline-block;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: right;
+    max-width: 1500px;
+}
+.fa-arrow-up {
+    font-size: 80px;
+    color: rgb(212, 102, 43);
+    width: 10px;
+    margin: 10px 0;
+}
+/* Rodapé*/
+footer{
+    text-align: center;
+    margin-bottom: 10px;
 }
