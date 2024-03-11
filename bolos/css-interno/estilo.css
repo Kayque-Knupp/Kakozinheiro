@@ -34,6 +34,12 @@ span.destaque{
     color: rgb(241, 183, 35);
     margin:50px 0;
 }
+
+/*Pagina aberta*/
+a span.bolos{
+    border-bottom: 4px solid white;
+    border-radius:2px;
+}
 /* barra de navegação*/
 
 .navbar-container{
@@ -70,9 +76,7 @@ span.destaque{
 .navbar-itens a:hover{
     color: rgb(255, 255, 255);
 }
-.navbar-itens a:active{
-    color: blue;
-}
+
 .fa-brands{
     transition: 0.5s;
     font-size: 35px;
