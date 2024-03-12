@@ -70,9 +70,7 @@ span.destaque{
 .navbar-itens a:hover{
     color: rgb(255, 255, 255);
 }
-.navbar-itens a:active{
-    color: blue;
-}
+
 .fa-brands{
     transition: 0.5s;
     font-size: 35px;
@@ -101,6 +99,9 @@ span.destaque{
 .texto-receita-destaque{
     margin: 20px 0;
     text-align: justify;
+}
+.texto-receita-destaque p{
+    text-indent: 20px;
 }
 .imagem-destaque img{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.679);
@@ -132,7 +133,6 @@ span.destaque{
     width: 600px;
     margin: 20px auto;
     text-align: justify;
-
 }
 .fa-star{
     color:rgb(224, 154, 3);
@@ -211,6 +211,7 @@ span.destaque{
     border-radius: 50%;
     background-color: rgb(212, 102, 43);
     margin-right: 20px;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.486);
 }
 .dados-sobre{
     max-width: 800px;
@@ -239,6 +240,7 @@ figcaption{
     background-color: rgb(212, 102, 43);
     color: rgb(255, 255, 255);
     border-radius: 50%;
+    transition: 0.4s;
 }
 /* Rodapé*/
 footer{
