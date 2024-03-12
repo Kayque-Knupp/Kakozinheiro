@@ -19,6 +19,7 @@ p{
     line-height: 25px;
     font-weight: 400;
 }
+
 /*fonte marcellus*/
 .marcellus-regular {
     font-family: "Marcellus", serif;
@@ -93,6 +94,7 @@ span.destaque{
 /* Receita em destaque*/
 
 .pagina-destaque{
+    padding: 20px;
     width: 70vw;
     margin: 0px auto;
 }
@@ -240,7 +242,10 @@ figcaption{
     background-color: rgb(212, 102, 43);
     color: rgb(255, 255, 255);
     border-radius: 50%;
-    transition: 0.4s;
+}
+.fa-arrow-up:hover{
+    background-image: linear-gradient(to top,rgb(156, 64, 14),rgb(212, 102, 43), rgb(240, 137, 82));
+    
 }
 /* Rodapé*/
 footer{
