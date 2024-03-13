@@ -139,6 +139,18 @@ span.destaque{
 .fa-star{
     color:rgb(224, 154, 3);
 }
+
+/*Imagem de fundo do tipo de receita(essa classe somente nos index de cada página*/
+.bg-imagem-receita{
+    display: flex;
+    width: 70vw;
+    background-color: red;
+    background-image: url(../imagens/receita-exemplo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Novas receitas*/
 
 .novas-receitas{
@@ -155,7 +167,9 @@ span.destaque{
     border-radius: 10px;
     min-width: 400px;
     width: 26vw;
+    transform: rotate(360);
 }
+
 .descricao p{
     text-align: justify;
     min-width: 380px;
