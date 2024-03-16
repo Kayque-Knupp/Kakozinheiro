@@ -145,10 +145,12 @@ span.destaque{
     display: flex;
     width: 70vw;
     background-color: red;
-    background-image: url(../imagens/receita-exemplo.png);
+    background-image: url(../imagens/bolo-chocolate.jpg);
     background-size: cover;
+    background-position: bottom center ;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-radius: 10px;
 }
 
 /* Novas receitas*/
@@ -167,7 +169,7 @@ span.destaque{
     border-radius: 10px;
     min-width: 400px;
     width: 26vw;
-    transform: rotate(360);
+    height: 260px;
 }
 
 .descricao p{
